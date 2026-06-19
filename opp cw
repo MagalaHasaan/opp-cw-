@@ -1,0 +1,55 @@
+cd C:\Users\HP CORE 5 2025\Documents\NetBeansProjects\Libraryloansystem; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=libraryloansystem.Libraryloansystem \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+Scanning for projects...
+
+------------------------< 2:Libraryloansystem >-------------------------
+Building Libraryloansystem 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ Libraryloansystem ---
+skip non existing resourceDirectory C:\Users\HP CORE 5 2025\Documents\NetBeansProjects\Libraryloansystem\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ Libraryloansystem ---
+Recompiling the module because of changed source code.
+Compiling 4 source files with javac [debug release 25] to target\classes
+-------------------------------------------------------------
+COMPILATION ERROR : 
+-------------------------------------------------------------
+libraryloansystem/Libraryloansystem.java:[22,1] class, interface, enum, or record expected
+libraryloansystem/Libraryloansystem.java:[24,1] class, interface, enum, or record expected
+libraryloansystem/Libraryloansystem.java:[26,1] class, interface, enum, or record expected
+libraryloansystem/Libraryloansystem.java:[28,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[57,1] illegal start of expression
+libraryloansystem/loans.java:[70,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[72,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[74,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[76,1] statements not expected outside of methods and initializers
+libraryloansystem/loans.java:[77,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[5,1] compact source file should not have package declaration
+11 errors 
+-------------------------------------------------------------
+------------------------------------------------------------------------
+BUILD FAILURE
+------------------------------------------------------------------------
+Total time:  3.131 s
+Finished at: 2026-06-19T03:42:04+02:00
+------------------------------------------------------------------------
+Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project Libraryloansystem: Compilation failure: Compilation failure: 
+libraryloansystem/Libraryloansystem.java:[22,1] class, interface, enum, or record expected
+libraryloansystem/Libraryloansystem.java:[24,1] class, interface, enum, or record expected
+libraryloansystem/Libraryloansystem.java:[26,1] class, interface, enum, or record expected
+libraryloansystem/Libraryloansystem.java:[28,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[57,1] illegal start of expression
+libraryloansystem/loans.java:[70,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[72,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[74,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[76,1] statements not expected outside of methods and initializers
+libraryloansystem/loans.java:[77,1] class, interface, enum, or record expected
+libraryloansystem/loans.java:[5,1] compact source file should not have package declaration
+-> [Help 1]
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging.
+
+For more information about the errors and possible solutions, please read the following articles:
+[Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
